@@ -105,7 +105,6 @@ class MainWindow(QMainWindow):
 
         self.progress_icon_label = QLabel(self)
         pixmap = QPixmap("youtube.png")  # Înlocuiți "path_to_icon.png" cu calea către iconul dorit
-        #pixmap = pixmap.scaledToHeight(128, Qt.AspectRatioMode.KeepAspectRatioByExpanding)
         self.progress_icon_label.setPixmap(pixmap)
         progress_layout.addWidget(self.progress_icon_label)
 
